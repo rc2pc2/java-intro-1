@@ -9,18 +9,11 @@ public class App {
     // % dispongo come parametri di un solo parametro chiamato args, di tipo array di String => String[] args
     // * potenzialmente, se dovessero esserci problemi allora emetterei un evento eccezionale di tipo Exception => throws Exception
     public static void main(String[] args) throws Exception {   
-        // int numero = 3; 
-
-        // String parola = "Ciaoo";
-        // String parolaDue = "Classe WDPT6";
-        
-        // System.out.println(parola);
-        // System.out.println("Rosso");
 
         Scanner input = new Scanner(System.in);
 
         System.out.println("Inserisci un nome");
-        String nome = input.nextLine();        
+        String nome = input.nextLine();  // Gina       
 
         System.out.println("Il nome che  hai appena inserito e': " + nome);
 

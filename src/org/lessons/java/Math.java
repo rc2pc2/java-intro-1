@@ -5,8 +5,7 @@ import java.util.Scanner;
 
 public class Math {
     public static void main(String[] args) {
-    
-        Random  randomGenerator = new Random();
+        Random randomGenerator = new Random();
 
         Scanner input = new Scanner(System.in);
         System.out.println("Inserisci il numero massimo da generare: ");
